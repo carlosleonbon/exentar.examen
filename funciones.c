@@ -67,4 +67,12 @@ int ** calcula_matriz(int** A, int** B, int rA, int cA, int rB, int cB) {
     }
 
     return C;
+
+}
+
+void limpiar(int **M,int r){
+    for(int i = 0; i < r; i++){
+        free(*(M + i));
+    }
+    free(M);
 }

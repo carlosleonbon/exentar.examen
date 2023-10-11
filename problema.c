@@ -36,5 +36,11 @@ int main(void){
     printf("\n C:\n");
     imprimir_m(C, rC, cC);
 
+    limpiar(A, rA);
+    limpiar(B, rB);
+    limpiar(C, rC);
+    printf("\n Memoria libre \n");
+
     return 0;
+
 }
